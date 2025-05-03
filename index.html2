@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>InkHart Kreations</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header>
+<div class="logo-container">
+<img src="logo.jpg" alt="InkHart Kreations Logo" class="logo" />
+</div>
+<h1>InkHart Kreations</h1>
+<p class="estd">ESTD 2023</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#gallery">Gallery</a>
+<a href="#commissions">Commissions</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<main>
+<section id="home" class="intro">
+<h2>Welcome to InkHart Kreations</h2>
+<p>Art that beats with emotion and ink.</p>
+</section>
+
+<section id="gallery">
+<h2>Gallery</h2>
+<p>Explore our collection of art prints available for purchase.</p>
+<p><a href="https://www.artpal.com/" target="_blank">Visit Our ArtPal Store</a></p>
+</section>
+
+<section id="commissions">
+<h2>Custom Commissions</h2>
+<p>Interested in a custom piece? Click below to request one:</p>
+<p><a href="https://payhip.com/" target="_blank">Request a Commission</a></p>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>Email us at <a href="mailto:contact@inkhartkreations.com">contact@inkhartkreations.com</a></p>
+</section>
+</main>
+
+<footer>
+<p>&copy; 2025 InkHart Kreations. All rights reserved.</p>
+</footer>
+</body>
+</html>

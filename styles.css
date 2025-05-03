@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background: #f8f8f6;
+    margin: 0;
+    padding: 0;
+    }
+    
+    header {
+    padding: 40px 20px 20px;
+    }
+    
+    .logo-container {
+    animation: float 3s ease-in-out infinite;
+    }
+    
+    .logo {
+    width: 150px;
+    }
+    
+    @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    }
+    
+    nav {
+    margin: 20px 0;
+    }
+    
+    nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+    }
+    
+    main {
+    padding: 40px 20px;
+    }
+    
+    footer {
+    background: #ddd;
+    padding: 20px;
+    font-size: 0.9em;
+    }
+    
+    .estd {
+    margin-top: 5px;
+    font-size: 0.8em;
+    color: #888;
+    }
