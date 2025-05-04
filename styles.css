@@ -1,41 +1,36 @@
-/* Basic Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
-    font-family: Arial, sans-serif;
-    background-image: url('spray-texture.png.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    color: white;
-    line-height: 1.6;
-}
-
-header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    padding: 50px 0;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
 }
-
+.logo-container {
+    margin-top: 30px;
+}
+.floating-logo {
+    width: 150px;
+    animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0); }
+}
 h1 {
-    font-size: 3rem;
+    margin: 20px 0 10px;
 }
-
 section {
+    margin: 40px 20px;
     padding: 20px;
-    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
-
 footer {
-    text-align: center;
-    padding: 20px 0;
-    background-color: rgba(0, 0, 0, 0.7);
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #222;
+    color: white;
 }
-
-/* Optional: Customize other elements as needed */
