@@ -1,21 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Art Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ink Hart Kreations</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #000;
+      color: white;
+      overflow-x: hidden;
+    }
+
+    header {
+      position: relative;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    header img {
+      width: 200px;
+      animation: float 6s ease-in-out infinite;
+      filter: drop-shadow(0 0 10px #fff) drop-shadow(0 0 20px #fff);
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0) rotate(0deg); }
+      50% { transform: translateY(-20px) rotate(1deg); }
+      100% { transform: translateY(0) rotate(-1deg); }
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin: 1rem 0 0.5rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      background-color: #111;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #888;
+    }
+
+    a {
+      color: #00ffff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Art Portfolio</h1>
-    </header>
-    <section>
-        <h2>About Me</h2>
-        <p>Here is a brief introduction about my art.</p>
-    </section>
-    <footer>
-        <p>&copy; 2025 Your Name</p>
-    </footer>
+  <header>
+    <img src="logo-fotor-bg-remover-20250504111856.png" alt="Ink Hart Kreations logo" />
+    <h1>Welcome to InkHart Kreations</h1>
+    <p>Original prints, custom artwork, and more.</p>
+  </header>
+
+  <section id="prints">
+    <h2>Available Prints</h2>
+    <p>Upload your best pieces here to showcase and sell.</p>
+  </section>
+
+  <section id="commissions">
+    <h2>Client Commissions</h2>
+    <p>Interested in a custom piece? <a href="#contact">Contact me</a>.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 InkHart Kreations. All rights reserved.</p>
+  </footer>
 </body>
 </html>
