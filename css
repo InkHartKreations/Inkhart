@@ -1,0 +1,20 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.art-item {
+  background: white;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.art-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
